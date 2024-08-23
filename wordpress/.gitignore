@@ -1,0 +1,24 @@
+# Ignorar directorios específicos de WordPress
+/wp-content/cache/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/plugins/
+/wp-content/themes/*
+
+# Ignorar archivos sensibles
+wp-config.php
+.htaccess
+
+# Ignorar archivos del entorno local
+.env
+*.log
+
+# Ignorar directorios y archivos de herramientas de desarrollo
+node_modules/
+vendor/
+.DS_Store
+.idea/
+.vscode/
+
+# Ignorar archivos de sistema
+Thumbs.db
